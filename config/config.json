@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "check-user-agent-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/checkUserAgent/CheckUserAgentWebPart.js",
+          "manifest": "./src/webparts/checkUserAgent/CheckUserAgentWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CheckUserAgentWebPartStrings": "lib/webparts/checkUserAgent/loc/{locale}.js"
+  }
+}

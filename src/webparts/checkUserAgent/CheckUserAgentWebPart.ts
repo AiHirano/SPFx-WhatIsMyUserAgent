@@ -38,6 +38,7 @@ export default class CheckUserAgentWebPart extends BaseClientSideWebPart <ICheck
     return Version.parse('1.0');
   }
 
+  /*
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     return {
       pages: [
@@ -58,5 +59,5 @@ export default class CheckUserAgentWebPart extends BaseClientSideWebPart <ICheck
         }
       ]
     };
-  }
+  }*/
 }
